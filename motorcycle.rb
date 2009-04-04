@@ -3,7 +3,7 @@ class MotorCycle
     # Instance variables
     @make = make
     @color = color
-  end
+    end
   def startEngine
     if (@engineState)
       puts 'Engine is already Running'
@@ -13,3 +13,4 @@ class MotorCycle
     end
   end
 end
+
